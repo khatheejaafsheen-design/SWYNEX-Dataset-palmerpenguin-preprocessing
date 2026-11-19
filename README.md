@@ -66,4 +66,60 @@ Feature engineering and hyperparameter tuning helped analyse model performance a
 
 BE Computer Science and Engineering Student
 
+## ⚙️ Installation and Setup
+
+Follow these steps to run the project on your local machine.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/khatheejaafsheen-design/SWYNEX-Dataset-palmerpenguin-preprocessing.git
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd SWYNEX-Dataset-palmerpenguin-preprocessing
+```
+
+### 3. Install Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Open the machine learning notebook and execute the cells sequentially.
+
+## 💻 Project Execution
+
+1. Load the Palmer Penguins dataset.
+2. Perform data preprocessing and feature engineering.
+3. Train Logistic Regression and Decision Tree models.
+4. Evaluate model performance using classification metrics.
+5. Compare both trained models.
+6. Predict penguin species using new input data.
+
+## 🔮 Prediction
+
+The trained classification model is intended to predict one of the following penguin species:
+
+- Adelie
+- Chinstrap
+- Gentoo
+
+Predictions are based on penguin characteristics such as bill measurements, flipper length, body mass, island and sex.
+
+## 📌 Future Improvements
+
+- Develop an interactive prediction interface.
+- Experiment with additional classification algorithms.
+- Improve model generalization.
+- Deploy the model as a web application.
+
 GitHub: [@khatheejaafsheen-design](https://github.com/khatheejaafsheen-design)
